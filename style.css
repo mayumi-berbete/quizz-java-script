@@ -48,3 +48,33 @@ body{
     cursor: pointer;
     transition: all o.3s;
 }
+
+.bnt:hover:not([disabled]) {
+    background: black;
+    color: white;
+}
+
+.bnt:disabled{
+    cursor: no-drop;
+}
+
+#next-bnt {
+    background: blue;
+    color: white;
+    font-weight: 500;
+    width: 150;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display:none
+}
+
+.correct{
+    background: lightblue;
+}
+
+.incorrect{
+    background: lightcoral;
+}
